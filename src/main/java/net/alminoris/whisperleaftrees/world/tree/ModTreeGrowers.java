@@ -1,0 +1,30 @@
+package net.alminoris.whisperleaftrees.world.tree;
+
+import net.alminoris.whisperleaftrees.util.helper.ModBlockSetsHelper;
+import net.alminoris.whisperleaftrees.world.ModConfiguredFeatures;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.block.grower.AbstractTreeGrower;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+
+import java.util.Dictionary;
+import java.util.Hashtable;
+import java.util.Optional;
+
+public class ModTreeGrowers
+{
+    public static final Dictionary<String, ResourceKey<ConfiguredFeature<?, ?>>> keys = new Hashtable<>()
+    {{
+        put("willow", ModConfiguredFeatures.WILLOW_KEY);
+        put("poplar", ModConfiguredFeatures.POPLAR_KEY);
+        put("alder", ModConfiguredFeatures.ALDER_KEY);
+        put("aspen", ModConfiguredFeatures.ASPEN_KEY);
+    }};
+
+    public static final Dictionary<String, AbstractTreeGrower> saplingGenerators = new Hashtable<>()
+    {{
+        for(String name : ModBlockSetsHelper.WOOD_NAMES)
+        {
+            put(name, new CustomTreeGrower(keys.get(name)));
+        }
+    }};
+}

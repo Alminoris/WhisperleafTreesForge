@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "alder",
+  "ingredients": [
+    {
+      "item": "whisperleaftrees:alder_planks"
+    }
+  ],
+  "result": {
+    "item": "whisperleaftrees:alder_button"
+  }
+}

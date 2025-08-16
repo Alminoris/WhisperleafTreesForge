@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "aspen",
+  "ingredients": [
+    {
+      "item": "whisperleaftrees:aspen_planks"
+    }
+  ],
+  "result": {
+    "item": "whisperleaftrees:aspen_button"
+  }
+}
