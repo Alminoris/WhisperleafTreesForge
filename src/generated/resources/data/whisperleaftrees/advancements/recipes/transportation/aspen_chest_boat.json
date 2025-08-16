@@ -28,5 +28,6 @@
     "recipes": [
       "whisperleaftrees:aspen_chest_boat"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

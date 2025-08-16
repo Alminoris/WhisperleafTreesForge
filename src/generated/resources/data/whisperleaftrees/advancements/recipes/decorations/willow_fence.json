@@ -30,5 +30,6 @@
     "recipes": [
       "whisperleaftrees:willow_fence"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

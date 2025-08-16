@@ -30,5 +30,6 @@
     "recipes": [
       "whisperleaftrees:alder_planks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -30,5 +30,6 @@
     "recipes": [
       "whisperleaftrees:willow_planks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }
