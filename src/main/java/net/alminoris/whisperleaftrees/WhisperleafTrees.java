@@ -73,6 +73,8 @@ public class WhisperleafTrees
 
         if(event.getTab() == ModItemGroups.WHISPERLEAFTREES_TAB)
         {
+            event.accept(ModBlocks.WILLOW_VINES.get());
+
             for (String name : WOOD_NAMES)
             {
                 event.accept(WOODEN_SAPLINGS.get(name).get());
