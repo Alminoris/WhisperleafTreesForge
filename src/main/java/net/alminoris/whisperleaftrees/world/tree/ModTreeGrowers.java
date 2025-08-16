@@ -3,7 +3,7 @@ package net.alminoris.whisperleaftrees.world.tree;
 import net.alminoris.whisperleaftrees.util.helper.ModBlockSetsHelper;
 import net.alminoris.whisperleaftrees.world.ModConfiguredFeatures;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.level.block.grower.AbstractTreeGrower;
+import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 
 import java.util.Dictionary;
@@ -20,11 +20,16 @@ public class ModTreeGrowers
         put("aspen", ModConfiguredFeatures.ASPEN_KEY);
     }};
 
-    public static final Dictionary<String, AbstractTreeGrower> saplingGenerators = new Hashtable<>()
+    public static final Dictionary<String, TreeGrower> saplingGenerators = new Hashtable<>()
     {{
         for(String name : ModBlockSetsHelper.WOOD_NAMES)
         {
-            put(name, new CustomTreeGrower(keys.get(name)));
+            put(name, new TreeGrower(name, 0f, Optional.empty(),
+                    Optional.empty(),
+                    Optional.of(keys.get(name)),
+                    Optional.empty(),
+                    Optional.empty(),
+                    Optional.empty()));
         }
     }};
 }

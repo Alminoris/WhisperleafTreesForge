@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "whisperleaftrees:block/stripped_willow_log_top",
-    "side": "whisperleaftrees:block/stripped_willow_log"
-  }
-}

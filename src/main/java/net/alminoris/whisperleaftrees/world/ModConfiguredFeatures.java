@@ -7,7 +7,7 @@ import net.alminoris.whisperleaftrees.util.helper.ModBlockSetsHelper;
 import net.alminoris.whisperleaftrees.world.gen.decorator.custom.CustomVineDecorator;
 import net.alminoris.whisperleaftrees.world.tree.custom.PoplarFoliagePlacer;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.valueproviders.ConstantInt;
@@ -31,7 +31,7 @@ public class ModConfiguredFeatures
     public static final ResourceKey<ConfiguredFeature<?, ?>> ALDER_KEY = registerKey("alder");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ASPEN_KEY = registerKey("aspen");
 
-    public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context)
+    public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context)
     {
         register(context, POPLAR_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlockSetsHelper.LOGS.get("poplar").get()),
@@ -105,7 +105,7 @@ public class ModConfiguredFeatures
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(WhisperleafTrees.MOD_ID, name));
     }
 
-    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstapContext<ConfiguredFeature<?, ?>> context,
+    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstrapContext<ConfiguredFeature<?, ?>> context,
                                                                                           ResourceKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }

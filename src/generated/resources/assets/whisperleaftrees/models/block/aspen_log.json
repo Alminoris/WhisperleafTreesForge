@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "whisperleaftrees:block/aspen_log_top",
-    "side": "whisperleaftrees:block/aspen_log"
-  }
-}

@@ -15,7 +15,7 @@ import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerTy
 
 public class PoplarFoliagePlacer extends FancyFoliagePlacer
 {
-    public static final Codec<PoplarFoliagePlacer> CODEC = RecordCodecBuilder.create(
+    public static final MapCodec<PoplarFoliagePlacer> CODEC = RecordCodecBuilder.mapCodec(
             instance -> blobParts(instance).apply(instance, PoplarFoliagePlacer::new)
     );
 

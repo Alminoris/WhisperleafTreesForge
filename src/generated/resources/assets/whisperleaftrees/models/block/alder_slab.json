@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "whisperleaftrees:block/alder_planks",
-    "side": "whisperleaftrees:block/alder_planks",
-    "top": "whisperleaftrees:block/alder_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left_open",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "bottom": "whisperleaftrees:block/aspen_door_bottom",
-    "top": "whisperleaftrees:block/aspen_door_top"
-  }
-}

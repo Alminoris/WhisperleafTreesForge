@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "whisperleaftrees:block/willow_planks",
-    "side": "whisperleaftrees:block/willow_planks",
-    "top": "whisperleaftrees:block/willow_planks"
-  }
-}

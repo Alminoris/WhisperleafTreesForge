@@ -4,7 +4,7 @@ import net.alminoris.whisperleaftrees.WhisperleafTrees;
 import net.alminoris.whisperleaftrees.util.helper.ModBlockSetsHelper;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.data.worldgen.BootstapContext;
+import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
@@ -22,7 +22,7 @@ public class ModPlacedFeatures
     public static final ResourceKey<PlacedFeature> ALDER_PLACED_KEY = registerKey("alder_placed");
     public static final ResourceKey<PlacedFeature> ASPEN_PLACED_KEY = registerKey("aspen_placed");
 
-    public static void bootstrap(BootstapContext<PlacedFeature> context)
+    public static void bootstrap(BootstrapContext<PlacedFeature> context)
     {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         register(context, POPLAR_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.POPLAR_KEY),
@@ -47,7 +47,7 @@ public class ModPlacedFeatures
         return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(WhisperleafTrees.MOD_ID, name));
     }
 
-    private static void register(BootstapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,
+    private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,
                                  List<PlacementModifier> modifiers) {
         context.register(key, new PlacedFeature(configuration, List.copyOf(modifiers)));
     }
