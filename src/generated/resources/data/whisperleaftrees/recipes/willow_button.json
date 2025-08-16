@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "willow",
+  "ingredients": [
+    {
+      "item": "whisperleaftrees:willow_planks"
+    }
+  ],
+  "result": {
+    "item": "whisperleaftrees:willow_button"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "whisperleaftrees:block/willow_slab"
+    },
+    "type=double": {
+      "model": "whisperleaftrees:block/willow_planks"
+    },
+    "type=top": {
+      "model": "whisperleaftrees:block/willow_slab_top"
+    }
+  }
+}

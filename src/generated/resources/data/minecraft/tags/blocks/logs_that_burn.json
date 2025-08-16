@@ -1,20 +1,20 @@
 {
   "values": [
-    "silverwoodtrees:walnut_log",
-    "silverwoodtrees:walnut_wood",
-    "silverwoodtrees:stripped_walnut_log",
-    "silverwoodtrees:stripped_walnut_wood",
-    "silverwoodtrees:silver_maple_log",
-    "silverwoodtrees:silver_maple_wood",
-    "silverwoodtrees:stripped_silver_maple_log",
-    "silverwoodtrees:stripped_silver_maple_wood",
-    "silverwoodtrees:staghorn_sumac_log",
-    "silverwoodtrees:staghorn_sumac_wood",
-    "silverwoodtrees:stripped_staghorn_sumac_log",
-    "silverwoodtrees:stripped_staghorn_sumac_wood",
-    "silverwoodtrees:silverberry_log",
-    "silverwoodtrees:silverberry_wood",
-    "silverwoodtrees:stripped_silverberry_log",
-    "silverwoodtrees:stripped_silverberry_wood"
+    "whisperleaftrees:willow_log",
+    "whisperleaftrees:willow_wood",
+    "whisperleaftrees:stripped_willow_log",
+    "whisperleaftrees:stripped_willow_wood",
+    "whisperleaftrees:poplar_log",
+    "whisperleaftrees:poplar_wood",
+    "whisperleaftrees:stripped_poplar_log",
+    "whisperleaftrees:stripped_poplar_wood",
+    "whisperleaftrees:alder_log",
+    "whisperleaftrees:alder_wood",
+    "whisperleaftrees:stripped_alder_log",
+    "whisperleaftrees:stripped_alder_wood",
+    "whisperleaftrees:aspen_log",
+    "whisperleaftrees:aspen_wood",
+    "whisperleaftrees:stripped_aspen_log",
+    "whisperleaftrees:stripped_aspen_wood"
   ]
 }

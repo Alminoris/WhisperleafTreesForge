@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "poplar",
+  "key": {
+    "#": {
+      "item": "whisperleaftrees:poplar_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "item": "whisperleaftrees:poplar_sign_item"
+  },
+  "show_notification": true
+}

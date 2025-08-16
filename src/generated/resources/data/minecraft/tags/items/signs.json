@@ -1,8 +1,8 @@
 {
   "values": [
-    "silverwoodtrees:walnut_sign_item",
-    "silverwoodtrees:silver_maple_sign_item",
-    "silverwoodtrees:staghorn_sumac_sign_item",
-    "silverwoodtrees:silverberry_sign_item"
+    "whisperleaftrees:willow_sign_item",
+    "whisperleaftrees:poplar_sign_item",
+    "whisperleaftrees:alder_sign_item",
+    "whisperleaftrees:aspen_sign_item"
   ]
 }

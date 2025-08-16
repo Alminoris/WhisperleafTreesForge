@@ -1,8 +1,8 @@
 {
   "values": [
-    "silverwoodtrees:walnut_hanging_sign_item",
-    "silverwoodtrees:silver_maple_hanging_sign_item",
-    "silverwoodtrees:staghorn_sumac_hanging_sign_item",
-    "silverwoodtrees:silverberry_hanging_sign_item"
+    "whisperleaftrees:willow_hanging_sign_item",
+    "whisperleaftrees:poplar_hanging_sign_item",
+    "whisperleaftrees:alder_hanging_sign_item",
+    "whisperleaftrees:aspen_hanging_sign_item"
   ]
 }

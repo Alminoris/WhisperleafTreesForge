@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "poplar",
+  "ingredients": [
+    {
+      "item": "whisperleaftrees:poplar_planks"
+    }
+  ],
+  "result": {
+    "item": "whisperleaftrees:poplar_button"
+  }
+}

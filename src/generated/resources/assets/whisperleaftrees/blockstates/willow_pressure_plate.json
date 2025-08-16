@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "whisperleaftrees:block/willow_pressure_plate"
+    },
+    "powered=true": {
+      "model": "whisperleaftrees:block/willow_pressure_plate_down"
+    }
+  }
+}

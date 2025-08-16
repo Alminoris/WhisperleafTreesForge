@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "whisperleaftrees:alder_planks"
+    }
+  ],
+  "result": {
+    "item": "whisperleaftrees:alder_chest_boat"
+  }
+}
