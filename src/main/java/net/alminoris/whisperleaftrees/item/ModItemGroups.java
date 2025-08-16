@@ -1,6 +1,7 @@
 package net.alminoris.whisperleaftrees.item;
 
 import net.alminoris.whisperleaftrees.WhisperleafTrees;
+import net.alminoris.whisperleaftrees.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,7 @@ public class ModItemGroups
             .title(Component.translatable("itemgroup.whisperleaftreestab"))
             .displayItems((parameters, output) ->
             {
+                output.accept(ModBlocks.WILLOW_VINES.get());
                 for (String name : WOOD_NAMES)
                 {
                     output.accept(WOODEN_SAPLINGS.get(name).get());
